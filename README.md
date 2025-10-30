@@ -1,16 +1,19 @@
-# React + Vite
+# React Vite Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Vite** based react template with pre-configured development environment. This includes tools commonly used in the react community, so you can hit the ground running with your next project.
 
-Currently, two official plugins are available:
+This template comes with:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **[Tanstack React Query](https://tanstack.com/query/latest)** for data fetching and caching
+- **[React Router](https://reactrouter.com/start/data/installation)** in data mode for routing
+- **[Tailwind CSS](https://tailwindcss.com)** for utility-first styling
+- **[ShadCN UI](https://ui.shadcn.com/docs/components)** for a flexible, customizable design system
+- **Axios** with a base path client setup for making HTTP requests
 
-## React Compiler
+### Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Use this repository as [GitHub Template](https://github.com/shreeraamg/react-vite-template/generate) or use [degit](https://github.com/Rich-Harris/degit) to get a copy in your machine without git
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npx degit shreeraamg/react-vite-template#main my-app
+```
